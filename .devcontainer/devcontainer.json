@@ -1,0 +1,16 @@
+{
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "hostRequirements": {
+          "storage": "128gb",
+          "memory": "16gb"
+      },
+    "postCreateCommand": ".devcontainer/post-create.sh",
+    "customizations": {
+      "vscode": {
+        "extensions": []
+      }
+    },
+    "remoteUser": "root"
+}
