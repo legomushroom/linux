@@ -3,8 +3,8 @@
       "dockerfile": "Dockerfile"
     },
     "hostRequirements": {
-          "storage": "128gb",
-          "memory": "16gb"
+        "cpus": 16,
+        "memory": "16gb"
       },
     "postCreateCommand": ".devcontainer/post-create.sh",
     "customizations": {
